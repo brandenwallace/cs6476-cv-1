@@ -1,4 +1,4 @@
-## Problem Set 2 – Window-based Stereo Matching
+## Problem Set 2 – Window based Stereo Matching
 
 In class and in Forsyth and Ponce, chapter 7 we discussed window-based approaches to estimating dense stereo correspondence. In this project you will implement such approaches and evaluate it on some standard stereo pairs.
 
