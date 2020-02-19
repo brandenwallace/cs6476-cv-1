@@ -3,7 +3,7 @@
 This problem set is really just to make sure you can load an image, manipulate the values, produce some output.
 
 ### 1. Input images
-1. Find two interesting images to use. They should be color. You might find some classic vision examples in [http://sipi.usc.edu/database/database.php?volume=misc](http://sipi.usc.edu/database/database.php?volume=misc). Or take your own. Make sure they are not larger than 512x512. 
+Find two interesting images to use. They should be color. You might find some classic vision examples in [http://sipi.usc.edu/database/database.php?volume=misc](http://sipi.usc.edu/database/database.php?volume=misc). Or take your own. Make sure they are not larger than 512x512. 
 Output: both images
 
 ### 2. Color planes
@@ -17,7 +17,7 @@ Output: new image
 Output: response  
 
 ### 3. Replacement of pixels
-1. Take the inner square of 100x100 pixels of monochrome version of image 1 and insert them into the monochrome version of image 2  
+Take the inner square of 100x100 pixels of monochrome version of image 1 and insert them into the monochrome version of image 2  
 Output: new image  
 
 ### 4. Arithmetic and Geometric operation
