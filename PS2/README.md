@@ -16,14 +16,14 @@ Basically you just sum up the squares. A “good” match, then, is when this va
     1. Again apply your SSD match algorithm, and again create a disparity image D(x,y) such that L(x,y) = R(x+DL(x,y),y) when matching from left to right. Also match from right to left.  
     Output: Show DL(x,y) [matching from left to right] and DR(x,y)[matching from right to left] as images. These disparity images may need to be scaled and shifted to display correctly.
 
-    2. Also in this directory are the ground truth disparity images *proj2-pair1-Disp-L.png* and *proj2-pair1-Disp-R.png*. Compare your results.
+    2. Also in this directory are the ground truth disparity images *proj2-pair1-Disp-L.png* and *proj2-pair1-Disp-R.png*. Compare your results.  
     Output: description of the differences between your results and the ground truth
 
 3. SSD is not very robust to certain perturbations. We’re going to try to see the effect of perturbations:  
     1. Add some Gaussian noise to the image; either one or both. Make the noise sigma big enough that you can tell some noise has been added. Run SSD again.  
     Output: Disparity images and analysis of result compared to part 1.
 
-    2. Instead of the Gaussian noise, increase the contrast (multiplication) of one of the images by just 10%. Run SSD again.
+    2. Instead of the Gaussian noise, increase the contrast (multiplication) of one of the images by just 10%. Run SSD again.  
     Output: Disparity images and analysis of result compared to part 1.
 
 4. Now you’re going to **use** (not implement yourself unless you want) an improved method, called **_normalized correlation_** – this is discussed in the book. The basic idea is that we think of two image patches as **_vectors_** and to compute the angle between them – much like normalized dot products. This can be written as:
