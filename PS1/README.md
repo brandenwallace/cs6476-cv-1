@@ -8,13 +8,13 @@ experiment with them. **_BUT: YOU MAY NOT USE ANY HOUGH TOOLS._** For example, y
 your own accumulator array data structures and code for voting and peak finding.
 
 1. In the Problem Set directory there is a Data director with a few images. For this question use the first one ps1-input0.png which looks like this:  
-![](../media/PS1/1.png)  
+![](../../media/PS1/1.png)  
 This is a test image for which the answer should be clear, where the “object” boundaries are only lines.  
 Do “doc edge” in Matlab and read about edge operators. Using one of your choosing – for this image it probably won’t matter much – create an edge image which is a binary image with white pixels on the edges and black pixels elsewhere. If your edge operator uses parameters (like ‘canny’) play with those until you get the edges you would expect to see.  
 Output: the edge image
 
 2. Write a Hough method for finding lines. Remember to worry about d being negative if θ goes from 0 to π. Apply it to the edge image. Draw the lines in color on the monochrome intensity (not edge image. The lines can extend to the edge of the images (aka infinite lines). You should see an image that looks like this:  
-![](../media/PS1/2.png)  
+![](../../media/PS1/2.png)  
 You might get lines at the boundary of the image too depending upon the edge operator you selected (but those really shouldn’t be there).  
 Output: Hough accumulator array image with peaks circled or somehow labeled.  
 Output: intensity image with lines drawn on them  
